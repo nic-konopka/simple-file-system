@@ -316,7 +316,7 @@ int main(int argc, char *argv[])
 {
     int fuse_stat;
     struct sfs_state *sfs_data;
-    
+
     // sanity checking on the command line
     if ((argc < 3) || (argv[argc-2][0] == '-') || (argv[argc-1][0] == '-'))
 	sfs_usage();
